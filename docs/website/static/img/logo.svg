@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="716px" height="86px" viewBox="0 0 716 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="53.3827474%" x2="100%" y2="53.3827484%" id="linearGradient-1">
+            <stop stop-color="#5EB9E7" offset="0%"></stop>
+            <stop stop-color="#60B8E8" offset="47.0255579%"></stop>
+            <stop stop-color="#64CEE9" offset="53.7024046%"></stop>
+            <stop stop-color="#5FD0E9" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(0.000000, -12.000000)">
+            <text id="openzeppelin" font-family="Gen-Light, Gen" font-size="90" font-weight="300" letter-spacing="3.79999995">
+                <tspan x="153" y="78" fill="#5CB3E4">open</tspan>
+                <tspan x="368.81" y="78" fill="#000000">zeppeli</tspan>
+                <tspan x="673.959999" y="78" fill="#000000">n</tspan>
+            </text>
+            <path d="M17.1981387,97.962557 C6.56541421,87.2138609 0,72.4336262 0,56.1199568 C0,45.3854457 2.84264978,35.3148711 7.81624052,26.6199417 L58.3878081,26.6199568 L17.1981387,97.962557 Z M99.4215981,12 C111.446223,22.887087 119,38.6213823 119,56.1199568 C119,65.2455338 116.945626,73.8912861 113.274135,81.6199568 L59.2264973,81.6199568 L99.4215981,12 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+        </g>
+    </g>
+</svg>
