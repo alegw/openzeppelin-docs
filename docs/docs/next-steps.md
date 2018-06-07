@@ -11,4 +11,4 @@ We're constantly working on middle and advanced-level guides.
 to the real world.
 
 You may also ask for help or follow OpenZeppelin's progress in the community [Slack](https://slack.openzeppelin.org), 
-or read [OpenZeppelin's full code reference here](https://openzeppelin.org/api/docs/crowdsale_Crowdsale.html).
+or read [OpenZeppelin's full code reference here](reference.md).

@@ -52,7 +52,7 @@ contract GoodFailEarly {
 ```
 
 Note that some of these checks (especially those depending on internal state) 
-can be implemented via Function Modifiers.
+can be implemented via function modifiers.
 
 ## Favor pull over push payments
 Every ether transfer implies potential code execution. The receiving address
@@ -286,7 +286,7 @@ from [regression problems](https://en.wikipedia.org/wiki/Software_regression). A
 regression bug appears when a previously correct component gets broken based on
 a recent change.
 
-For more information about testing, check out [Truffle’s guide](https://blog.zeppelin.solutions/onward-with-ethereum-smart-contract-security-97a827e47702).
+For more information about testing, check out [Truffle's guide](http://truffleframework.com/docs/getting_started/testing).
 
 ## Implement fault tolerance and automatic bug bounties
 Read [this excellent piece by Peter Borah](https://medium.com/@peterborah/we-need-fault-tolerant-smart-contracts-ec1b56596dbc).
@@ -405,7 +405,7 @@ In this case, emergency mode would only allow the curator to destroy the
 contract and recover the funds, but in a real case, recovery logic could be
 more complex (for example, returning funds to their owners). Here's the
 OpenZeppelin [implementation of Stoppable](https://github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/lifecycle/Pausable.sol),
-that we renamed Pausable.
+(now renamed Pausable).
 
 ## Limit the amount of funds deposited
 Another way to protect our smart contracts from attacks is to limit their

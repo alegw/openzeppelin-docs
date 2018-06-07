@@ -34,6 +34,8 @@ contract MyContract is Ownable {
 ```
 
 ## Developer resources
+You can find the full code reference for every contract in the latest version of OpenZeppelin [here](reference.md).
+
 Please visit the [OpenZeppelin Wiki](https://github.com/OpenZeppelin/openzeppelin-solidity/wiki). You'll find links to our [contribution guidelines](https://github.com/OpenZeppelin/openzeppelin-solidity/blob/master/CONTRIBUTING.md), [issue tracker](https://github.com/OpenZeppelin/openzeppelin-solidity/issues), and other resources. 
 
 ## Security Notice

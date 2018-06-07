@@ -8,23 +8,22 @@ id: using-web3
 We'll build a simple web app to send ether from one account to another. 
 
 
-> You should have `testrpc` already installed. No?
+> You should have `ganache-cli` already installed. No?
 We strongly recommend not to skip steps on this guide to make the most of it.
 Learn about [properly setting up a test environment here](test-environment.md).
 If you're only interested in interacting with ether on the web without building
-smart contracts, you can keep reading below – just run `npm install -g ethereumjs-testrpc`.
+smart contracts, you can keep reading below – just run `npm install -g ganache-cli`.
 
-Go into a new folder and run a `testrpc` node.
+Go into a new folder and run a `ganache-cli` node.
 ```
 mkdir webapp
 cd webapp
-testrpc
+ganache-cli
 ```
 
-Running `testrpc` will create 10 addresses with fake ether by default. You make a custom 
+Running `ganache-cli` will create 10 addresses with fake ether by default. You make a custom 
 initialization by [following the documentation](https://github.com/trufflesuite/ganache-cli#usage).
-It’s important to mention that the `testrpc` state is volatile, that is every time you
-close it, the state of your node and accounts will be cleared.
+Remember: its state is volatile: every time you close it, the state of your node and accounts will be cleared.
 
 [web3.js](https://github.com/ethereum/wiki/wiki/JavaScript-API) is a a
 JavaScript library that implements the Ethereum JSON RPC. That is, the protocol
@@ -37,7 +36,7 @@ npm install -g web3@0.20.1
 
 For this exercise, make sure to install a 0.20.x version, not the 1.0.0 beta.
 
-You need to connect `web3` with your local `testrpc` node by asking `web3` to use 
+You need to connect `web3` with your local `ganache-cli` node by asking `web3` to use 
 a `localhost` provider. Let’s open a node console and input following lines:
 
 ```
@@ -228,7 +227,7 @@ balance and adding it to the receiver’s balance:
 ### Deploying the smart contract
 Now, let’s start playing with our contract! You will need to deploy our
 contract to the network first. To do that, you will use a Solidity compiler for
-node.js called solc. You can install it by running:
+node.js called `solc`. You can install it by running:
 
 ```
 npm install -g solc
@@ -334,4 +333,4 @@ just showed you to send tokens and detailed token balances of your accounts.
 
 ![A screenshot of the crowdfunding Dapp UI](assets/web3-dapp1.png)
 
-> The token described in this article is not ERC20 compliant to reduce the new term overload. If you don’t know what an ERC20 compliant token is, we’ll explain it in the next article.
+> The token described in this article is not ERC-20 compliant to reduce the new term overload. Learn more about ERC-20 [here](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md), and use OpenZeppelin's implementation [here](https://github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/token/ERC20/ERC20.sol). 
