@@ -27,7 +27,7 @@ Remember: its state is volatile: every time you close it, the state of your node
 
 [web3.js](https://github.com/ethereum/wiki/wiki/JavaScript-API) is a a
 JavaScript library that implements the Ethereum JSON RPC. That is, the protocol
-that we will use to talk to an Ethereum node (in this case, testrpc). To
+that we will use to talk to an Ethereum node (in this case, `ganache-cli`). To
 install it, just run:
 
 ```
@@ -45,7 +45,7 @@ provider = new Web3.providers.HttpProvider("http://localhost:8545")
 web3 = new Web3(provider)
 ```
 
-Please note that we are using the default `testrpc` port (8545), if you set
+Please note that we are using the default ``ganache-cli`` port (8545), if you set
 another one, remember to change the provider URL too. Once you have your `web3`
 instance, start by getting the list of accounts you have in your Ethereum node,
 with their respective balance, by running the following:
@@ -255,7 +255,7 @@ Then, you will see a new file called MyToken_sol_MyToken.abi with a JSON
 content that bassically defines the interface of your contract.
 
 Finally you just need to deploy your contract from a node.js console using
-testrpc running in background. Once you have done that, let’s initialize web3:
+`ganache-cli` running in background. Once you have done that, let’s initialize web3:
 
 ```
 //instance web3
@@ -266,7 +266,7 @@ web3 = new Web3(provider)
 
 Web3 gives you the possibility to parse your contract ABI and provide a
 JavaScript API to interact with it. Then, you just need the bytecode to deploy
-a new instance of that contract to testrpc. Please follow the next commands:
+a new instance of that contract to `ganache-cli`. Please follow the next commands:
 
 ```
 // load files
@@ -287,7 +287,7 @@ interact with your contract.
 
 ### Interacting with web3
 
-Let’s begin by searching the token balances of your testrpc accounts. To do so,
+Let’s begin by searching the token balances of your `ganache-cli` accounts. To do so,
 you will need to access the instance of your deployed contract first:
 
 ```

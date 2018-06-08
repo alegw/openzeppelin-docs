@@ -10,7 +10,7 @@ the blockchain, where all the EVM state is represented.
 
 There are various compatible clients for the protocol, At OpenZeppelin, we've found
 [ganache-cli](https://github.com/trufflesuite/ganache-cli) to be the most
-beginner-friendly option (rather than the more popular `geth`). Install it and leave it running in a new terminal.
+beginner-friendly option. Install it and leave it running in a new terminal.
 
 > You may need to prepend `sudo` depending on your setup.
 
